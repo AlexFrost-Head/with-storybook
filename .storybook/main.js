@@ -20,11 +20,11 @@ const config = {
 module.exports = {
   addons: ["storybook-contrast"]
 };
-module.exports = {
-  // ...
+/*module.exports = {
+   ...
   features: {
-    // ...
+     ...
     storyStoreV7: true
   }
-};
+};*/
 export default config;
