@@ -44,3 +44,11 @@ export const Small: Story = {
     label: 'Button',
   },
 }
+
+export const Warning = {
+  args: {
+    primary: true,
+    label: 'Delete now',
+    backgroundColor: 'redd';
+  }
+};
