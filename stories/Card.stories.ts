@@ -1,7 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Card } from './Card'
-import { title } from 'process';
-
 
 const meta: Meta<typeof Card> = {
     title: 'Example/Card',
