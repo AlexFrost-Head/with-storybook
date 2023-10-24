@@ -1,10 +1,11 @@
 .card-container {
     font-family: Arial, Helvetica, sans-serif;
-    width: 15rem;
+    width: 21.4rem;
     border-radius: 1rem;
     box-shadow: 0px 10px 8px #999;
     display: flex;
     flex-direction: column;
+    padding: 1.5rem;
     margin: 0.5rem;
     background-color: white;
     height: fit-content;
@@ -16,7 +17,8 @@
 }
 
 .card-title,
-.card-description {
+.card-description,
+.card-label {
     margin: 0.5rem 5%;
 }
 
