@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 
 import "./Card.css";
 
@@ -26,3 +26,12 @@ export const Card = ({
     </div>
   );
 };
+
+<Card 
+  imgSrc="https://picsum.photos/300/200" 
+  imgAlt="Card Image"
+  title="Card Title"
+  description="This is the card description, you can add more details about the card here."
+  buttonText="Learn More"
+  link="cardPage"
+  />
