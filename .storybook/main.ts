@@ -13,5 +13,7 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
-}
-export default config
+};
+export default config; {
+  addons: ['@storybook/addon-a11y']
+};
