@@ -15,8 +15,8 @@ export const Example: Story = {
         imgSrc: "https://picsum.photos/300/200",
         imgAlt:'Card Image',
         label: "LABEL HEADING",
-        title: "Card Title",
-        description: "This is the card description, you can add more details about the card here",
+        title: "Conten card heading",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum augue...",
         buttonText: "Learn More",
         link: "cardPage"
     }
