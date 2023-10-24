@@ -12,12 +12,13 @@
 
 .card-img{
     width: 100%;
+    margin-bottom: 8%;
 }
 
 .card-title,
 .card-description,
 .card-label {
-    margin: 0.5rem 5%;
+    margin: 0.5rem 8%;
 }
 
 .card-btn{
@@ -28,5 +29,5 @@
     width: fill;
     color: black;
     text-decoration: none;
-    margin: 1.5rem 5%;
+    margin: 1.5rem 8%;
 }
