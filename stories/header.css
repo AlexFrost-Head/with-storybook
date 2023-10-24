@@ -15,10 +15,25 @@ svg {
 h1 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1;
+  line-height: 26px;
   margin: 6px 0 6px 10px;
   display: inline-block;
   vertical-align: top;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal; 
+}
+
+h5{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 button + button {

@@ -1,9 +1,9 @@
 .card-container {
     font-family: Arial, Helvetica, sans-serif;
-    width: 15rem;
-    border-radius: 1rem;
+    width: 21.4rem;
+    border-radius: 0rem;
     box-shadow: 0px 10px 8px #999;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     margin: 0.5rem;
     background-color: white;
@@ -12,21 +12,22 @@
 
 .card-img{
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 8%;
 }
 
 .card-title,
-.card-description {
-    margin: 0.5rem 5%;
+.card-description,
+.card-label {
+    margin: 0.5rem 8%;
 }
 
 .card-btn{
-    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: left;
     width: fill;
-    border-radius: 5px;
-    padding: 0.5rem 0.5rem;
-    background-color: #2563eb;
-    color: white;
+    color: black;
     text-decoration: none;
-    margin: 0.5rem;
+    margin: 1.5rem 8%;
 }

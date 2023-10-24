@@ -14,9 +14,10 @@ export const Example: Story = {
     args: {
         imgSrc: "https://picsum.photos/300/200",
         imgAlt:'Card Image',
-        title: "Card Title",
-        description: "This is the card description, you can add more details about the card here",
-        buttonText: "Learn More",
+        label: "LABEL HEADING",
+        title: "Content card heading",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum augue vitae odio tincidunt, id commodo tellus finibus. Sed efficitur lorem eget fermentum lacinia. Quisque sit amet diam enim.",
+        buttonText: "Learn more",
         link: "cardPage"
     }
 };
