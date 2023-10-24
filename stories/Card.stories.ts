@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Card } from './Card'
+import { title } from 'process';
 
 
 const meta: Meta<typeof Card> = {
@@ -13,6 +14,11 @@ type Story = StoryObj<typeof Card>;
 
 export const Example: Story = {
     args: {
-        title: 'Card Title',
+        imgSrc: "https://picsum.photos/300/200",
+        imgAlt:'Card Image',
+        title: "Card Title",
+        description: "This is the card description, you can add more details about the card here",
+        buttonText: "Learn More",
+        link: "cardPage"
     }
 };
