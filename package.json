@@ -9,7 +9,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@types/node": "18.15.12",
+    "@coreui/coreui": "^5.0.0-alpha.3",
+    "@coreui/react": "^5.0.0-alpha.3",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
     "next": "13.3.0",
@@ -27,6 +28,7 @@
     "@storybook/nextjs": "^7.0.6",
     "@storybook/react": "^7.0.6",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.8.8",
     "storybook": "^7.0.6"
   },
   "engines": {
